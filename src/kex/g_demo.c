@@ -27,7 +27,11 @@
 
 #include "doomdef.h"
 #include "doomstat.h"
+
+#ifdef _MSC_VER
 #include "i_opndir.h"
+#endif
+
 #include "z_zone.h"
 #include "p_tick.h"
 #include "g_local.h"
